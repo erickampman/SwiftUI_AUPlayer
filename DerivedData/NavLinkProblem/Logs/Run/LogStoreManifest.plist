@@ -5,6 +5,381 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>16C4846B-8289-4F5E-AC16-227F5BAAA0EC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>16C4846B-8289-4F5E-AC16-227F5BAAA0EC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NavLinkProblem project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NavLinkProblem</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run NavLinkProblem</string>
+			<key>timeStartedRecording</key>
+			<real>641664718.50909805</real>
+			<key>timeStoppedRecording</key>
+			<real>641664756.84390795</real>
+			<key>title</key>
+			<string>Run NavLinkProblem</string>
+			<key>uniqueIdentifier</key>
+			<string>16C4846B-8289-4F5E-AC16-227F5BAAA0EC</string>
+		</dict>
+		<key>1B802D71-A401-4E34-88CF-2F8800B8CA89</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1B802D71-A401-4E34-88CF-2F8800B8CA89.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NavLinkProblem project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NavLinkProblem</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run NavLinkProblem</string>
+			<key>timeStartedRecording</key>
+			<real>641669154.19921398</real>
+			<key>timeStoppedRecording</key>
+			<real>641669163.47321999</real>
+			<key>title</key>
+			<string>Run NavLinkProblem</string>
+			<key>uniqueIdentifier</key>
+			<string>1B802D71-A401-4E34-88CF-2F8800B8CA89</string>
+		</dict>
+		<key>28853974-5B9E-4961-AC71-C427715398D0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>28853974-5B9E-4961-AC71-C427715398D0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NavLinkProblem project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NavLinkProblem</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run NavLinkProblem</string>
+			<key>timeStartedRecording</key>
+			<real>641665247.04528606</real>
+			<key>timeStoppedRecording</key>
+			<real>641667141.16659105</real>
+			<key>title</key>
+			<string>Run NavLinkProblem</string>
+			<key>uniqueIdentifier</key>
+			<string>28853974-5B9E-4961-AC71-C427715398D0</string>
+		</dict>
+		<key>3A3DE009-8DBD-4F1B-93CF-2DE9EDC68EB6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3A3DE009-8DBD-4F1B-93CF-2DE9EDC68EB6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NavLinkProblem project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NavLinkProblem</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run NavLinkProblem</string>
+			<key>timeStartedRecording</key>
+			<real>641667256.02319503</real>
+			<key>timeStoppedRecording</key>
+			<real>641667276.52734697</real>
+			<key>title</key>
+			<string>Run NavLinkProblem</string>
+			<key>uniqueIdentifier</key>
+			<string>3A3DE009-8DBD-4F1B-93CF-2DE9EDC68EB6</string>
+		</dict>
+		<key>5ECDE358-E5BC-40B5-9EB8-D6161E5132F6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5ECDE358-E5BC-40B5-9EB8-D6161E5132F6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NavLinkProblem project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NavLinkProblem</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run NavLinkProblem</string>
+			<key>timeStartedRecording</key>
+			<real>641668960.74523795</real>
+			<key>timeStoppedRecording</key>
+			<real>641668982.46854198</real>
+			<key>title</key>
+			<string>Run NavLinkProblem</string>
+			<key>uniqueIdentifier</key>
+			<string>5ECDE358-E5BC-40B5-9EB8-D6161E5132F6</string>
+		</dict>
+		<key>7D622F1B-559B-4E25-BE9E-4E64E38E010E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7D622F1B-559B-4E25-BE9E-4E64E38E010E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NavLinkProblem project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NavLinkProblem</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run NavLinkProblem</string>
+			<key>timeStartedRecording</key>
+			<real>641672001.06878603</real>
+			<key>timeStoppedRecording</key>
+			<real>641672191.72132397</real>
+			<key>title</key>
+			<string>Run NavLinkProblem</string>
+			<key>uniqueIdentifier</key>
+			<string>7D622F1B-559B-4E25-BE9E-4E64E38E010E</string>
+		</dict>
+		<key>88D991EE-417C-4AEB-992F-8F88D1960FB5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>88D991EE-417C-4AEB-992F-8F88D1960FB5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NavLinkProblem project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NavLinkProblem</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run NavLinkProblem</string>
+			<key>timeStartedRecording</key>
+			<real>641664815.81605399</real>
+			<key>timeStoppedRecording</key>
+			<real>641665247.20157301</real>
+			<key>title</key>
+			<string>Run NavLinkProblem</string>
+			<key>uniqueIdentifier</key>
+			<string>88D991EE-417C-4AEB-992F-8F88D1960FB5</string>
+		</dict>
+		<key>B03EAC95-EF5D-4F1D-9969-AFE782D9632D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B03EAC95-EF5D-4F1D-9969-AFE782D9632D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NavLinkProblem project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NavLinkProblem</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run NavLinkProblem</string>
+			<key>timeStartedRecording</key>
+			<real>641668859.96012497</real>
+			<key>timeStoppedRecording</key>
+			<real>641668944.33860195</real>
+			<key>title</key>
+			<string>Run NavLinkProblem</string>
+			<key>uniqueIdentifier</key>
+			<string>B03EAC95-EF5D-4F1D-9969-AFE782D9632D</string>
+		</dict>
+		<key>DBE62CEB-2BF7-44C3-8E4A-72DAFBF7C875</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DBE62CEB-2BF7-44C3-8E4A-72DAFBF7C875.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NavLinkProblem project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NavLinkProblem</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run NavLinkProblem</string>
+			<key>timeStartedRecording</key>
+			<real>641668772.07683396</real>
+			<key>timeStoppedRecording</key>
+			<real>641668795.95250499</real>
+			<key>title</key>
+			<string>Run NavLinkProblem</string>
+			<key>uniqueIdentifier</key>
+			<string>DBE62CEB-2BF7-44C3-8E4A-72DAFBF7C875</string>
+		</dict>
+		<key>DFE5F664-A7D0-4037-8330-7645856A0318</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DFE5F664-A7D0-4037-8330-7645856A0318.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NavLinkProblem project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NavLinkProblem</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run NavLinkProblem</string>
+			<key>timeStartedRecording</key>
+			<real>641671905.81263101</real>
+			<key>timeStoppedRecording</key>
+			<real>641672001.22754002</real>
+			<key>title</key>
+			<string>Run NavLinkProblem</string>
+			<key>uniqueIdentifier</key>
+			<string>DFE5F664-A7D0-4037-8330-7645856A0318</string>
+		</dict>
+		<key>EB4C48E7-A3BE-4A49-B42A-071642EF0340</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EB4C48E7-A3BE-4A49-B42A-071642EF0340.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NavLinkProblem project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NavLinkProblem</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run NavLinkProblem</string>
+			<key>timeStartedRecording</key>
+			<real>641668718.45504403</real>
+			<key>timeStoppedRecording</key>
+			<real>641668738.06269705</real>
+			<key>title</key>
+			<string>Run NavLinkProblem</string>
+			<key>uniqueIdentifier</key>
+			<string>EB4C48E7-A3BE-4A49-B42A-071642EF0340</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

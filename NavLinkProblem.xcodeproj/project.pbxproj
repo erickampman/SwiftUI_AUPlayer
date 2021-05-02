@@ -11,6 +11,11 @@
 		E4639933263F040F0083A493 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4639932263F040F0083A493 /* ContentView.swift */; };
 		E4639935263F040F0083A493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4639934263F040F0083A493 /* Assets.xcassets */; };
 		E4639938263F040F0083A493 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4639937263F040F0083A493 /* Preview Assets.xcassets */; };
+		E4639941263F0A400083A493 /* AUInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4639940263F0A400083A493 /* AUInfo.swift */; };
+		E4639943263F0BEA0083A493 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4639942263F0BEA0083A493 /* StringExtension.swift */; };
+		E4639947263F10B10083A493 /* AVFAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4639945263F10B10083A493 /* AVFAudio.framework */; };
+		E4639948263F10B10083A493 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4639946263F10B10083A493 /* AudioToolbox.framework */; };
+		E463994A263F1DBF0083A493 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4639949263F1DBF0083A493 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		E4639937263F040F0083A493 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E4639939263F040F0083A493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E463993A263F040F0083A493 /* NavLinkProblem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NavLinkProblem.entitlements; sourceTree = "<group>"; };
+		E4639940263F0A400083A493 /* AUInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUInfo.swift; sourceTree = "<group>"; };
+		E4639942263F0BEA0083A493 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		E4639945263F10B10083A493 /* AVFAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFAudio.framework; path = System/Library/Frameworks/AVFAudio.framework; sourceTree = SDKROOT; };
+		E4639946263F10B10083A493 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E4639949263F1DBF0083A493 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +38,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4639947263F10B10083A493 /* AVFAudio.framework in Frameworks */,
+				E4639948263F10B10083A493 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +51,7 @@
 			children = (
 				E463992F263F040F0083A493 /* NavLinkProblem */,
 				E463992E263F040F0083A493 /* Products */,
+				E4639944263F10B10083A493 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,8 +66,11 @@
 		E463992F263F040F0083A493 /* NavLinkProblem */ = {
 			isa = PBXGroup;
 			children = (
+				E4639940263F0A400083A493 /* AUInfo.swift */,
 				E4639930263F040F0083A493 /* NavLinkProblemApp.swift */,
 				E4639932263F040F0083A493 /* ContentView.swift */,
+				E4639949263F1DBF0083A493 /* DetailView.swift */,
+				E4639942263F0BEA0083A493 /* StringExtension.swift */,
 				E4639934263F040F0083A493 /* Assets.xcassets */,
 				E4639939263F040F0083A493 /* Info.plist */,
 				E463993A263F040F0083A493 /* NavLinkProblem.entitlements */,
@@ -69,6 +85,15 @@
 				E4639937263F040F0083A493 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4639944263F10B10083A493 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4639946263F10B10083A493 /* AudioToolbox.framework */,
+				E4639945263F10B10083A493 /* AVFAudio.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4639943263F0BEA0083A493 /* StringExtension.swift in Sources */,
 				E4639933263F040F0083A493 /* ContentView.swift in Sources */,
+				E4639941263F0A400083A493 /* AUInfo.swift in Sources */,
+				E463994A263F1DBF0083A493 /* DetailView.swift in Sources */,
 				E4639931263F040F0083A493 /* NavLinkProblemApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

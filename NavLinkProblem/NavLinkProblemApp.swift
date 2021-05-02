@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct NavLinkProblemApp: App {
+	var auInfo = AUInfo()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+			ContentView(auInfo: auInfo)
         }
     }
 }
