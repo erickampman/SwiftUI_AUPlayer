@@ -1,0 +1,19 @@
+
+Simple and crude app that loads installed effect AudioUnits and allows the user
+to test them with an audio loop. Apple code with accompanying LICENSE.txt is
+included. As far as I can tell it's ok to use Apple's code -- came from Apple's
+demo AUv3Host.
+
+
+Notes to me:
+UIViewControllerRepresentable
+	- makeUIViewController
+	- updateUIViewController
+	
+NSViewControllerRepresentable
+
+Coordinator
+	- NSObject
+	- NSViewControllerDelegate
+	- NSNavigationControllerDelegate
+

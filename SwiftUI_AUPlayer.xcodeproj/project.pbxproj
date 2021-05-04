@@ -11,26 +11,50 @@
 		E4639933263F040F0083A493 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4639932263F040F0083A493 /* ContentView.swift */; };
 		E4639935263F040F0083A493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4639934263F040F0083A493 /* Assets.xcassets */; };
 		E4639938263F040F0083A493 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4639937263F040F0083A493 /* Preview Assets.xcassets */; };
-		E4639941263F0A400083A493 /* AUInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4639940263F0A400083A493 /* AUInfo.swift */; };
 		E4639943263F0BEA0083A493 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4639942263F0BEA0083A493 /* StringExtension.swift */; };
 		E4639947263F10B10083A493 /* AVFAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4639945263F10B10083A493 /* AVFAudio.framework */; };
 		E4639948263F10B10083A493 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4639946263F10B10083A493 /* AudioToolbox.framework */; };
 		E463994A263F1DBF0083A493 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4639949263F1DBF0083A493 /* DetailView.swift */; };
+		E463994C263F2D010083A493 /* Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = E463994B263F2D010083A493 /* Notes.txt */; };
+		E463994E263F2DBD0083A493 /* AUViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463994D263F2DBD0083A493 /* AUViewControllerRepresentable.swift */; };
+		E4639951263F39340083A493 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463994F263F39340083A493 /* TestViewController.swift */; };
+		E4639952263F39340083A493 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4639950263F39340083A493 /* TestViewController.xib */; };
+		E4639957263F59D80083A493 /* ComponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4639956263F59D80083A493 /* ComponentViewController.swift */; };
+		E4639959263F5A170083A493 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4639958263F5A170083A493 /* ViewExtensions.swift */; };
+		E463995B263F5B940083A493 /* ComponentViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463995A263F5B940083A493 /* ComponentViewControllerRepresentable.swift */; };
+		E463995D263F5CD30083A493 /* ComponentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E463995C263F5CD30083A493 /* ComponentViewController.xib */; };
+		E463995F263F5FC80083A493 /* AUMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463995E263F5FC80083A493 /* AUMgr.swift */; };
+		E4639961264046490083A493 /* BorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4639960264046490083A493 /* BorderedView.swift */; };
+		E46399A326417E780083A493 /* SimplePlayEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46399A126417E770083A493 /* SimplePlayEngine.swift */; };
+		E46399A426417E780083A493 /* Synth.aif in Resources */ = {isa = PBXBuildFile; fileRef = E46399A226417E780083A493 /* Synth.aif */; };
+		E46399A6264185A40083A493 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = E46399A5264185A40083A493 /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E463992D263F040F0083A493 /* NavLinkProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavLinkProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E463992D263F040F0083A493 /* SwiftUI_AUPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_AUPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4639930263F040F0083A493 /* NavLinkProblemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkProblemApp.swift; sourceTree = "<group>"; };
 		E4639932263F040F0083A493 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4639934263F040F0083A493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4639937263F040F0083A493 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E4639939263F040F0083A493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E463993A263F040F0083A493 /* NavLinkProblem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NavLinkProblem.entitlements; sourceTree = "<group>"; };
-		E4639940263F0A400083A493 /* AUInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUInfo.swift; sourceTree = "<group>"; };
 		E4639942263F0BEA0083A493 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		E4639945263F10B10083A493 /* AVFAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFAudio.framework; path = System/Library/Frameworks/AVFAudio.framework; sourceTree = SDKROOT; };
 		E4639946263F10B10083A493 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		E4639949263F1DBF0083A493 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		E463994B263F2D010083A493 /* Notes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Notes.txt; sourceTree = "<group>"; };
+		E463994D263F2DBD0083A493 /* AUViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUViewControllerRepresentable.swift; sourceTree = "<group>"; };
+		E463994F263F39340083A493 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		E4639950263F39340083A493 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		E4639956263F59D80083A493 /* ComponentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentViewController.swift; sourceTree = "<group>"; };
+		E4639958263F5A170083A493 /* ViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		E463995A263F5B940083A493 /* ComponentViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ComponentViewControllerRepresentable.swift; path = NavLinkProblem/ComponentViewControllerRepresentable.swift; sourceTree = SOURCE_ROOT; };
+		E463995C263F5CD30083A493 /* ComponentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComponentViewController.xib; sourceTree = "<group>"; };
+		E463995E263F5FC80083A493 /* AUMgr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUMgr.swift; sourceTree = "<group>"; };
+		E4639960264046490083A493 /* BorderedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedView.swift; sourceTree = "<group>"; };
+		E46399A126417E770083A493 /* SimplePlayEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplePlayEngine.swift; sourceTree = "<group>"; };
+		E46399A226417E780083A493 /* Synth.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Synth.aif; sourceTree = "<group>"; };
+		E46399A5264185A40083A493 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +73,9 @@
 		E4639924263F040F0083A493 = {
 			isa = PBXGroup;
 			children = (
+				E463994B263F2D010083A493 /* Notes.txt */,
 				E463992F263F040F0083A493 /* NavLinkProblem */,
+				E4639955263F59B40083A493 /* FromApple */,
 				E463992E263F040F0083A493 /* Products */,
 				E4639944263F10B10083A493 /* Frameworks */,
 			);
@@ -58,7 +84,7 @@
 		E463992E263F040F0083A493 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E463992D263F040F0083A493 /* NavLinkProblem.app */,
+				E463992D263F040F0083A493 /* SwiftUI_AUPlayer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,11 +92,15 @@
 		E463992F263F040F0083A493 /* NavLinkProblem */ = {
 			isa = PBXGroup;
 			children = (
-				E4639940263F0A400083A493 /* AUInfo.swift */,
+				E463995E263F5FC80083A493 /* AUMgr.swift */,
 				E4639930263F040F0083A493 /* NavLinkProblemApp.swift */,
 				E4639932263F040F0083A493 /* ContentView.swift */,
 				E4639949263F1DBF0083A493 /* DetailView.swift */,
+				E463994D263F2DBD0083A493 /* AUViewControllerRepresentable.swift */,
 				E4639942263F0BEA0083A493 /* StringExtension.swift */,
+				E463994F263F39340083A493 /* TestViewController.swift */,
+				E4639950263F39340083A493 /* TestViewController.xib */,
+				E4639960264046490083A493 /* BorderedView.swift */,
 				E4639934263F040F0083A493 /* Assets.xcassets */,
 				E4639939263F040F0083A493 /* Info.plist */,
 				E463993A263F040F0083A493 /* NavLinkProblem.entitlements */,
@@ -96,12 +126,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E4639955263F59B40083A493 /* FromApple */ = {
+			isa = PBXGroup;
+			children = (
+				E46399A126417E770083A493 /* SimplePlayEngine.swift */,
+				E46399A226417E780083A493 /* Synth.aif */,
+				E4639956263F59D80083A493 /* ComponentViewController.swift */,
+				E463995C263F5CD30083A493 /* ComponentViewController.xib */,
+				E4639958263F5A170083A493 /* ViewExtensions.swift */,
+				E463995A263F5B940083A493 /* ComponentViewControllerRepresentable.swift */,
+				E46399A5264185A40083A493 /* LICENSE.txt */,
+			);
+			path = FromApple;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E463992C263F040F0083A493 /* NavLinkProblem */ = {
+		E463992C263F040F0083A493 /* SwiftUI_AUPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E463993D263F040F0083A493 /* Build configuration list for PBXNativeTarget "NavLinkProblem" */;
+			buildConfigurationList = E463993D263F040F0083A493 /* Build configuration list for PBXNativeTarget "SwiftUI_AUPlayer" */;
 			buildPhases = (
 				E4639929263F040F0083A493 /* Sources */,
 				E463992A263F040F0083A493 /* Frameworks */,
@@ -111,9 +155,9 @@
 			);
 			dependencies = (
 			);
-			name = NavLinkProblem;
+			name = SwiftUI_AUPlayer;
 			productName = NavLinkProblem;
-			productReference = E463992D263F040F0083A493 /* NavLinkProblem.app */;
+			productReference = E463992D263F040F0083A493 /* SwiftUI_AUPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -130,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E4639928263F040F0083A493 /* Build configuration list for PBXProject "NavLinkProblem" */;
+			buildConfigurationList = E4639928263F040F0083A493 /* Build configuration list for PBXProject "SwiftUI_AUPlayer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,7 +187,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E463992C263F040F0083A493 /* NavLinkProblem */,
+				E463992C263F040F0083A493 /* SwiftUI_AUPlayer */,
 			);
 		};
 /* End PBXProject section */
@@ -154,7 +198,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4639938263F040F0083A493 /* Preview Assets.xcassets in Resources */,
+				E463994C263F2D010083A493 /* Notes.txt in Resources */,
+				E4639952263F39340083A493 /* TestViewController.xib in Resources */,
 				E4639935263F040F0083A493 /* Assets.xcassets in Resources */,
+				E463995D263F5CD30083A493 /* ComponentViewController.xib in Resources */,
+				E46399A426417E780083A493 /* Synth.aif in Resources */,
+				E46399A6264185A40083A493 /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,11 +214,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E463995B263F5B940083A493 /* ComponentViewControllerRepresentable.swift in Sources */,
+				E46399A326417E780083A493 /* SimplePlayEngine.swift in Sources */,
+				E4639951263F39340083A493 /* TestViewController.swift in Sources */,
 				E4639943263F0BEA0083A493 /* StringExtension.swift in Sources */,
 				E4639933263F040F0083A493 /* ContentView.swift in Sources */,
-				E4639941263F0A400083A493 /* AUInfo.swift in Sources */,
+				E4639961264046490083A493 /* BorderedView.swift in Sources */,
 				E463994A263F1DBF0083A493 /* DetailView.swift in Sources */,
+				E4639957263F59D80083A493 /* ComponentViewController.swift in Sources */,
 				E4639931263F040F0083A493 /* NavLinkProblemApp.swift in Sources */,
+				E463994E263F2DBD0083A493 /* AUViewControllerRepresentable.swift in Sources */,
+				E4639959263F5A170083A493 /* ViewExtensions.swift in Sources */,
+				E463995F263F5FC80083A493 /* AUMgr.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +398,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4639928263F040F0083A493 /* Build configuration list for PBXProject "NavLinkProblem" */ = {
+		E4639928263F040F0083A493 /* Build configuration list for PBXProject "SwiftUI_AUPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E463993B263F040F0083A493 /* Debug */,
@@ -351,7 +407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E463993D263F040F0083A493 /* Build configuration list for PBXNativeTarget "NavLinkProblem" */ = {
+		E463993D263F040F0083A493 /* Build configuration list for PBXNativeTarget "SwiftUI_AUPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E463993E263F040F0083A493 /* Debug */,

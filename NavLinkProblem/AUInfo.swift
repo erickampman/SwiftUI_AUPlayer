@@ -84,6 +84,26 @@ struct AudioUnitData: Hashable {
 class AUInfo: ObservableObject {
 	@Published var effects = [AudioUnitData]()
 
+/*
+	private let componentsAccessQueue = DispatchQueue(label: "com.unlikelyware.Test.ComponentsAccessQueue")
+
+	@Published private var components: [AudioUnitData] {
+		// This property can be accessed by multiple threads. Synchronize reads/writes.
+		get {
+			var array = [AudioUnitData]()
+			componentsAccessQueue.sync {
+				array = effects
+			}
+			return array
+		}
+		set {
+			componentsAccessQueue.sync {
+				effects = newValue
+			}
+		}
+	}
+*/
+
 	init() {
 		var desc = AudioComponentDescription(componentType: 0, componentSubType: 0, componentManufacturer: 0, componentFlags: 0, componentFlagsMask: 0)
 		

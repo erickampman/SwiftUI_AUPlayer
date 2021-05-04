@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-	@ObservedObject var auInfo: AUInfo
+	@ObservedObject var auMgr: AUMgr
     var body: some View {
 		NavigationView {
 			List {
-				ForEach(auInfo.effects.indices, id: \.self) { index in
-					NavigationLink(destination: DetailView(data: .constant(auInfo.effects[index])),
+				ForEach(auMgr.components.indices, id: \.self) { index in
+					NavigationLink(destination: DetailView(auMgr: auMgr,
+														   index: index),
 					   label: {
-						Text(auInfo.effects[index].auDetail)
+						Text(auMgr.components[index].auName)
 						}
 					)
 				}
@@ -26,7 +27,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-		ContentView(auInfo: AUInfo())
+		ContentView(auMgr: AUMgr("aufx".osType()!))
     }
 }
 

@@ -9,10 +9,17 @@ import SwiftUI
 
 @main
 struct NavLinkProblemApp: App {
-	var auInfo = AUInfo()
+//	var auInfo = AUInfo()
+	var auMgr = AUMgr("aufx".osType()!)
+
+	init() {
+		auMgr.addComponents { _ in
+			Swift.print("got components")
+		}
+	}
     var body: some Scene {
         WindowGroup {
-			ContentView(auInfo: auInfo)
+			ContentView(auMgr: auMgr)
         }
     }
 }
